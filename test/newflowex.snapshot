@@ -1,0 +1,53 @@
+{
+  "header" : {
+    "dataModelVersion" : "3"
+  },
+  "content" : {
+    "flowSnapshot" : {
+      "externalControllerServices" : { },
+      "flowContents" : {
+        "comments" : "",
+        "componentType" : "PROCESS_GROUP",
+        "connections" : [ ],
+        "controllerServices" : [ ],
+        "defaultBackPressureDataSizeThreshold" : "1 GB",
+        "defaultBackPressureObjectThreshold" : 10000,
+        "defaultFlowFileExpiration" : "0 sec",
+        "flowFileConcurrency" : "UNBOUNDED",
+        "flowFileOutboundPolicy" : "STREAM_WHEN_AVAILABLE",
+        "funnels" : [ ],
+        "identifier" : "8f24affc-532f-3c03-a5e7-1d7344a5dfd6",
+        "inputPorts" : [ ],
+        "instanceIdentifier" : "e4f91c84-0191-1000-bd9e-6c08d1ed4f59",
+        "labels" : [ ],
+        "name" : "newprocessorgroup",
+        "outputPorts" : [ ],
+        "parameterContextName" : "param",
+        "position" : {
+          "x" : 48.0,
+          "y" : 248.0
+        },
+        "processGroups" : [ ],
+        "processors" : [ ],
+        "remoteProcessGroups" : [ ],
+        "variables" : { }
+      },
+      "flowEncodingVersion" : "1.0",
+      "parameterContexts" : {
+        "param" : {
+          "componentType" : "PARAMETER_CONTEXT",
+          "inheritedParameterContexts" : [ ],
+          "name" : "param",
+          "parameters" : [ {
+            "description" : "",
+            "name" : "topic",
+            "provided" : false,
+            "sensitive" : false,
+            "value" : "23"
+          } ]
+        }
+      },
+      "parameterProviders" : { }
+    }
+  }
+}
