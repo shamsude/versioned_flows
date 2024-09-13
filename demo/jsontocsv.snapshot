@@ -16,6 +16,39 @@
           "destination" : {
             "comments" : "",
             "groupId" : "eb729193-0948-3f1a-b72f-48fe245dcfc4",
+            "id" : "5501a554-f1ac-38d5-a285-f78fa89f9ea7",
+            "instanceIdentifier" : "ea08623d-0191-1000-68b8-8fb063b48338",
+            "name" : "PutFile",
+            "type" : "PROCESSOR"
+          },
+          "flowFileExpiration" : "0 sec",
+          "groupIdentifier" : "eb729193-0948-3f1a-b72f-48fe245dcfc4",
+          "identifier" : "99522bae-22e7-3ab2-8622-749613bd1e9c",
+          "instanceIdentifier" : "ea224f59-0191-1000-dcc9-f20c5a5accf9",
+          "labelIndex" : 1,
+          "loadBalanceCompression" : "DO_NOT_COMPRESS",
+          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+          "name" : "",
+          "partitioningAttribute" : "",
+          "prioritizers" : [ ],
+          "selectedRelationships" : [ "success" ],
+          "source" : {
+            "comments" : "",
+            "groupId" : "eb729193-0948-3f1a-b72f-48fe245dcfc4",
+            "id" : "29dfaefb-407a-3cec-83f6-cdc086bd8406",
+            "instanceIdentifier" : "ea0fe10a-0191-1000-e730-32173b417bed",
+            "name" : "UpdateAttribute",
+            "type" : "PROCESSOR"
+          },
+          "zIndex" : 0
+        }, {
+          "backPressureDataSizeThreshold" : "1 GB",
+          "backPressureObjectThreshold" : 10000,
+          "bends" : [ ],
+          "componentType" : "CONNECTION",
+          "destination" : {
+            "comments" : "",
+            "groupId" : "eb729193-0948-3f1a-b72f-48fe245dcfc4",
             "id" : "a96452bc-83e2-39dc-801a-e9a398985d14",
             "instanceIdentifier" : "ea07ddc7-0191-1000-f0f4-cde5027e9802",
             "name" : "ConvertRecord",
